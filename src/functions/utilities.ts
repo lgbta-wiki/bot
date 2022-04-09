@@ -237,7 +237,6 @@ export default class Utilities {
 		return moment().format(format ?? 'YYYY-MM-DD hh:mm:ss A')
 	}
 
-
 	/**
 	 *
 	 * @param array The array you'd like to split.
