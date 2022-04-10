@@ -5,10 +5,6 @@ import { TextDecoder } from 'util'
 import { EvalCommand } from './commands/owner/eval'
 import chalk from 'chalk'
 
-if (process.platform === 'win32') {
-	throw new Error('Please use a good OS.')
-}
-
 const args = process.argv
 args.shift()
 args.shift()
