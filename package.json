@@ -7,13 +7,13 @@
 		"test": "yarn run lint && yarn run build",
 		"build": "yarn rimraf dist/ && yarn tsc",
 		"lint": "yarn eslint --ext js,jsx,ts,tsx src",
-		"start": "node starting.js && yarn build && node --trace-warnings --enable-source-maps dist/index.js",
+		"start": "yarn build && node --trace-warnings --enable-source-maps dist/index.js",
 		"format": "yarn prettier --write .",
 		"format:check": "yarn prettier --check ."
 	},
 	"repository": "https://github.com/lgbta-wiki/bot",
 	"author": "Skye <69115669+Lisenaaaa@users.noreply.github.com>",
-	"license": "UNLICENSED",
+	"license": "NPOSL-3.0",
 	"packageManager": "yarn@3.1.1",
 	"devDependencies": {
 		"@types/ms": "^0.7.31",
