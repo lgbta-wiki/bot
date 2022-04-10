@@ -11,7 +11,7 @@ import { ArgsUser } from '../../types/misc'
 	preconditions: ['slashOnly'],
 	slashOptions: {
 		guildIDs: ['931713412256387143'],
-		//		idHints: ['962461183493959722'],
+		idHints: ['962802593606807552'],
 		options: [
 			{
 				name: 'user',

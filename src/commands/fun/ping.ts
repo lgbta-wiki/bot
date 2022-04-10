@@ -10,7 +10,7 @@ import RainCommand from '../../structures/RainCommand'
 	preconditions: ['slashOnly'],
 	slashOptions: {
 		guildIDs: ['931713412256387143'],
-		//		idHints: ['962461183493959722'],
+		idHints: ['962802592818298920'],
 		//</CommandOptions>options: [
 		//{
 		//	name: 'user',
