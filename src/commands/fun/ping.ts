@@ -9,7 +9,6 @@ import RainCommand from '../../structures/RainCommand'
 	description: 'Get bot ping',
 	preconditions: ['slashOnly'],
 	slashOptions: {
-		guildIDs: ['931713412256387143'],
 		idHints: ['962802592818298920'],
 		//</CommandOptions>options: [
 		//{

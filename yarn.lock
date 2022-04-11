@@ -384,13 +384,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/validator@npm:^13.7.1":
-  version: 13.7.1
-  resolution: "@types/validator@npm:13.7.1"
-  checksum: 810649a23bc46928c85d933be73b106bacb651a412c4172e30a70e84c63cada595d391042274b16e1c05b391af3a4f157b360890fbc5462ee347275222d59b64
-  languageName: node
-  linkType: hard
-
 "@types/ws@npm:^8.2.2":
   version: 8.2.2
   resolution: "@types/ws@npm:8.2.2"
@@ -1352,7 +1345,6 @@ __metadata:
     "@types/node": ^17.0.17
     "@types/pg": ^8.6.4
     "@types/rimraf": ^3.0.2
-    "@types/validator": ^13.7.1
     "@typescript-eslint/eslint-plugin": ^5.11.0
     "@typescript-eslint/parser": ^5.11.0
     chalk: 4.0.0
@@ -1366,7 +1358,6 @@ __metadata:
     rimraf: ^3.0.2
     tslib: ^2.3.1
     typescript: ^4.5.5
-    validator: ^13.7.0
   languageName: unknown
   linkType: soft
 
@@ -1889,13 +1880,6 @@ __metadata:
   version: 2.3.0
   resolution: "v8-compile-cache@npm:2.3.0"
   checksum: adb0a271eaa2297f2f4c536acbfee872d0dd26ec2d76f66921aa7fc437319132773483344207bdbeee169225f4739016d8d2dbf0553913a52bb34da6d0334f8e
-  languageName: node
-  linkType: hard
-
-"validator@npm:^13.7.0":
-  version: 13.7.0
-  resolution: "validator@npm:13.7.0"
-  checksum: 2b83283de1222ca549a7ef57f46e8d49c6669213348db78b7045bce36a3b5843ff1e9f709ebf74574e06223461ee1f264f8cc9a26a0060a79a27de079d8286ef
   languageName: node
   linkType: hard
 
