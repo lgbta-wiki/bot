@@ -10,7 +10,6 @@ import { ArgsUser } from '../../types/misc'
 	description: 'see someones pronouns',
 	preconditions: ['slashOnly'],
 	slashOptions: {
-		guildIDs: ['931713412256387143'],
 		idHints: ['962802593606807552'],
 		options: [
 			{
