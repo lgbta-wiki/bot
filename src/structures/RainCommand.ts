@@ -1,5 +1,6 @@
 import { ApplicationCommandRegistry, Command, CommandOptions, PieceContext, RegisterBehavior } from '@sapphire/framework'
 import { ApplicationCommandData } from 'discord.js'
+import * as config from '../config/config'
 
 export default class RainCommand extends Command {
 	constructor(context: PieceContext, options: CommandOptions) {
@@ -17,7 +18,13 @@ export default class RainCommand extends Command {
 			registry.registerChatInputCommand(command, {
 				idHints: this.options.slashOptions.idHints,
 				behaviorWhenNotIdentical: RegisterBehavior.Overwrite,
-				...(this.options.slashOptions.guildIDs ? { guildIds: this.options.slashOptions.guildIDs } : {}),
+				...(
+					config.dev
+					? { guildId: config.devGuild }
+					: this.options.slashOptions.guildIDs
+					? { guildIds: this.options.slashOptions.guildIDs }
+					: {}
+				),
 			})
 		}
 	}
